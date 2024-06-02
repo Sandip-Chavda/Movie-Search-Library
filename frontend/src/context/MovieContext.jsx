@@ -43,7 +43,7 @@ export const MovieProvider = ({ children }) => {
   const searchMovies = async (query) => {
     try {
       const response = await fetch(
-        `http://www.omdbapi.com/?s=${query}&apikey=24643934`
+        `https://www.omdbapi.com/?s=${query}&apikey=24643934`
       );
       const data = await response.json();
       if (data.Search) {
