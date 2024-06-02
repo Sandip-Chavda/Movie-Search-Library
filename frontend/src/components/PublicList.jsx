@@ -1,3 +1,5 @@
+import PublicListCard from "./PublicListCard";
+
 const PublicList = () => {
   const list = false;
 
@@ -8,7 +10,7 @@ const PublicList = () => {
       </h1>
       <div className="flex flex-col">
         {list ? (
-          <div>Your lisst</div>
+          <div className="flex flex-col"></div>
         ) : (
           <div>
             <div className="flex mt-16  items-center justify-center">
